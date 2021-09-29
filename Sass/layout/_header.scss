@@ -1,0 +1,28 @@
+.header {
+  height: 95vh;
+  background: linear-gradient(
+      to right,
+      rgba(0, 8, 6, 0.906),
+      rgba(110, 114, 112, 0.336)
+    ),
+    url(https://source.unsplash.com/1600x900/?gym) no-repeat center center/cover;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  &__logo-box {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+  }
+  &__logo {
+    height: 9rem;
+  }
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

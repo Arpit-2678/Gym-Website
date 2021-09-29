@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/style.css" />
+    <title>Payment Gateway...</title>
+  </head>
+  <body>
+    <header class="payment-header">
+      <div class="payment-boundary">
+        <h1 class="payment-welcome heading-payment u-center-text">
+          Welcome to payment gateway
+        </h1>
+        <div class="section-details">
+          <div class="applicant-details">
+            <div class="terms-conditions">
+              <li class="common">
+                Fees is only refundable within first week of joining.
+              </li>
+              <li class="common">
+                Any suspicious activity may leed to cancellation of your
+                membership.
+              </li>
+              <li class="common">
+                Please ensure not to switch window during transaction.
+              </li>
+              <label for="accept">
+                <input type="checkbox" id="accept" name="accept" />
+                <span class="cond">I accept all terms and conditions</span>
+              </label>
+            </div>
+          </div>
+          <!-- UPI/ Google Pay/ Phone Pay/ Paytym -->
+          <div class="extra hidden">
+            <div class="mode upi">
+              <input type="radio" class="test1" id="upi" name="pay" />
+              <label for="upi"> UPI/ Google Pay/ Phone Pay/ Paytym</label>
+            </div>
+            <div class="mode cards">
+              <input type="radio" class="test1" id="card" name="pay" />
+              <label for="card"> Credit/Debit Cards</label>
+            </div>
+            <div class="mode netbanking">
+              <input type="radio" class="test1" id="nb" name="pay" />
+              <label for="nb"> Net Banking</label>
+            </div>
+            <button class="btn-join">Join Us</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="../Gym/Javascript/script2.js"></script>
+  </body>
+</html>

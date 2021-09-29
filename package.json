@@ -1,0 +1,14 @@
+{
+  "name": "fitzone",
+  "version": "1.0.0",
+  "description": "landing page for a gym website",
+  "main": "index.js",
+  "scripts": {
+   "compile:scss":"node-sass Sass/main.scss Css/style.css -w"
+  },
+  "author": "Arpit",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
